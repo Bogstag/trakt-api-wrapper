@@ -1,6 +1,6 @@
 <?php namespace Wubs\Trakt\Contracts;
 
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\ResponseInterface;
 use League\OAuth2\Client\Token\AccessToken;
 
 

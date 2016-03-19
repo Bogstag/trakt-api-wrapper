@@ -14,7 +14,7 @@ use Wubs\Trakt\Request\Calendars\Movies as MoviesRequest;
 use Wubs\Trakt\Request\Calendars\Shows as ShowsRequest;
 
 class Calendars extends Endpoint {
-    
+
     /**
      * @var \Wubs\Trakt\Api\Calendars\My
     */

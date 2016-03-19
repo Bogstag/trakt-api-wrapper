@@ -17,6 +17,10 @@ use Wubs\Trakt\Request\Calendars\My\Premieres as PremieresRequest;
 use Wubs\Trakt\Request\Calendars\My\Shows as ShowsRequest;
 use Wubs\Trakt\Api\Endpoint;
 
+/**
+ * Class My
+ * @package Wubs\Trakt\Api\Calendars
+ */
 class My extends Endpoint {
     
 

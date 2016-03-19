@@ -1,8 +1,8 @@
 <?php
 
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Response\Handlers\Movies\UpdatedHandler;
 use Wubs\Trakt\Response\Updated;
 

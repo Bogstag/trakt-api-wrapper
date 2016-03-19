@@ -9,7 +9,7 @@
 namespace Wubs\Trakt\Response\Handlers\Calendars;
 
 
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Contracts\ResponseHandler;
 use Wubs\Trakt\Request\Parameters\Days;
 use Wubs\Trakt\Request\Parameters\Type;

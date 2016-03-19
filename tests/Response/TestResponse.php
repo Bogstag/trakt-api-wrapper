@@ -1,12 +1,48 @@
 <?php
 
 use GuzzleHttp\Exception\ParseException;
-use GuzzleHttp\Message\ResponseInterface;
-use GuzzleHttp\Stream\StreamInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Utils;
 
 class TestResponse implements ResponseInterface
 {
+
+
+    public function withAddedHeader($name, $value)
+    {
+        // TODO: Implement withAddedHeader() method.
+    }
+
+    public function withProtocolVersion($version)
+    {
+        // TODO: Implement withProtocolVersion() method.
+    }
+
+    public function withoutHeader($name)
+    {
+        // TODO: Implement withoutHeader() method.
+    }
+
+    public function getHeaderLine($name)
+    {
+        // TODO: Implement getHeaderLine() method.
+    }
+
+    public function withBody(StreamInterface $body)
+    {
+        // TODO: Implement withBody() method.
+    }
+
+    public function withHeader($name, $value)
+    {
+        // TODO: Implement withHeader() method.
+    }
+
+    public function withStatus($code, $reasonPhrase = '')
+    {
+        // TODO: Implement withStatus() method.
+    }
 
     private $json;
 
@@ -22,7 +58,7 @@ class TestResponse implements ResponseInterface
     public function json(array $config = [])
     {
         try {
-            return Utils::jsonDecode(
+            return json_decode(
                 $this->json,
                 isset($config['object']) ? !$config['object'] : true,
                 512,

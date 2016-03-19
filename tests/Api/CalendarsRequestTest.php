@@ -3,8 +3,8 @@
 
 use Carbon\Carbon;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Api;
 use Wubs\Trakt\Auth\Auth;
 use Wubs\Trakt\Trakt;

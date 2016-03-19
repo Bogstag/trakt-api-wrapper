@@ -8,8 +8,8 @@
 
 use Dotenv\Dotenv;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Auth\Auth;
 use Wubs\Trakt\Media\Episode;
 use Wubs\Trakt\Media\Movie;

@@ -7,8 +7,8 @@ use Wubs\Trakt\Auth\TraktProvider;
 use Wubs\Trakt\Media\Movie;
 use Wubs\Trakt\Trakt;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 
 class MoviesRequestTest extends PHPUnit_Framework_TestCase
 {

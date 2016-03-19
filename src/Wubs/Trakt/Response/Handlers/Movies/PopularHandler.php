@@ -9,7 +9,7 @@
 namespace Wubs\Trakt\Response\Handlers\Movies;
 
 
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Contracts\ResponseHandler;
 use Wubs\Trakt\Media\Movie;
 use Wubs\Trakt\Response\Handlers\AbstractResponseHandler;

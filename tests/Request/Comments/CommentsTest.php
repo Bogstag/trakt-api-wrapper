@@ -1,7 +1,7 @@
 <?php
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Request\Comments\Delete;
 use Wubs\Trakt\Request\Comments\Get;
 use Wubs\Trakt\Request\Comments\Create;

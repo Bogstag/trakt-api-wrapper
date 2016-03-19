@@ -1,8 +1,8 @@
 <?php
 use Carbon\Carbon;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 use Wubs\Trakt\Contracts\ResponseHandler;
 use Wubs\Trakt\Request\AbstractRequest;
 use Wubs\Trakt\Request\Calendars\My;

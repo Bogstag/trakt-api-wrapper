@@ -10,7 +10,7 @@ namespace Wubs\Trakt\Response\Handlers;
 
 
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\ResponseInterface;
+use Psr\Http\Message\ResponseInterface;
 use Illuminate\Support\Collection;
 use Wubs\Trakt\Contracts\ResponseHandler;
 
